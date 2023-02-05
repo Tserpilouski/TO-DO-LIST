@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(251, 224, 185);
+    margin: 0px;
+}
+
+header{
+    border: 5px solid;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+header p{
+    margin: 0px;
+}
+
+main{
+    border: 5px solid;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;
+    justify-content: flex-end; */
+}
+
+button{
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+}
+
+
+.text{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.task{
+    border: 3px solid;
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+    margin: 10px;
+}
